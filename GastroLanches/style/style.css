@@ -1,0 +1,132 @@
+/* Observação: Como trata-se de um projeto apenas para praticar, não irei formatar as imagens/fotos 
+para tamanho adequado, tipo de arquivo adequado etc (formatar para página web)*/
+
+body {
+    background-color: rgb(255, 0, 0);
+    background-image: url(../img/fundo01.jpg);
+    background-position: 80%;
+    background-repeat: repeat;
+}
+
+.cabecalho {
+    text-align: center;
+    color: rgb(247, 252, 0);
+    font-size: 35px;
+}
+
+.menu ul {
+    display: flex;
+    text-decoration: row;
+    justify-content: space-evenly;
+    list-style: none;
+    gap: 25px;
+    background: rgb(201, 235, 255);
+    padding: 5px;
+}
+
+.menu a {
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(255, 0, 0);
+    text-shadow: 0.1em 0.2em 0.1em rgb(235, 252, 0);
+}
+
+.menu a:hover {
+    color: rgb(235, 252, 0);
+    text-shadow: 0.1em 0.1em 0.1em rgb(255, 0, 0);
+}
+
+.principal {
+    padding: 1%;
+    text-align: justify;
+    background: rgba(0, 0, 0, 0.226);
+    border-radius: 15px;
+}
+
+.sobre-os-produtos h2 {
+    padding-top: 50px;
+    color: red;
+    text-shadow: 0.1em 0.1em 0.1em rgb(0, 0, 0, 0.432);
+    font-size: 28px;
+}
+
+.sobre-os-produtos p,
+.cardapio p,
+.empresa p {
+    font-size: 20px;
+    color: white;
+    text-shadow: 0.1em 0.1em 0.1em rgba(235, 252, 0, 0.192);
+}
+
+.cardapio h2 {
+    color: rgb(235, 252, 0);
+    text-shadow: 0.1em 0.1em 0.1em rgb(0, 0, 0, 0.432);
+    font-size: 28px;
+}
+
+.cardapio-fotos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.sanduiche img {
+    border: 2px solid rgba(255, 255, 0, 0.212);
+    border-radius: 5px;
+    width: 360px;
+    height: 360px;
+}
+
+.empresa {
+    padding-top: 5%;
+}
+
+.empresa h2,
+.empresa h3,
+.logo-empresa,
+.contatos,
+footer {
+    text-align: center;
+}
+
+.empresa h2,
+.contatos h3 {
+    color: red;
+    text-shadow: 0.1em 0.1em 0.1em rgba(235, 252, 0, 0.26);
+    font-size: 35px;
+}
+
+.empresa h3,
+.contatos h2 {
+    font-size: 25px;
+    color: rgb(235, 252, 0);
+    text-shadow: 0.2em 0.2em 0.2em rgba(255, 0, 0, 0.432);
+}
+
+.redes-contatos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.redes-contatos img {
+    width: 55px;
+}
+
+.aumentar-imagem img {
+    width: 75px;
+}
+
+footer {
+    color: rgb(235, 252, 0);
+}
+
+footer a {
+    color: rgb(255, 0, 0);
+}
