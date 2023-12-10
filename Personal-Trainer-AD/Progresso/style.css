@@ -1,0 +1,49 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('/fonts/Poppins-Italic.ttf') format('truetype');
+}
+
+body {
+    background-color: rgb(20, 20, 20);
+    color: white;
+}
+
+.navbar-brand {
+    font-family: 'Poppins';
+}
+
+.treinador {
+    text-align: justify;
+}
+
+.importante {
+    color: rgb(241, 241, 155);
+    padding-left: 32%;
+    padding-right: 3%;
+}
+
+#slider {
+    max-width: 450px;
+    height: 20vw;
+}
+
+#slider img {
+    opacity: 0;
+    position: absolute;
+    object-fit: cover;
+    transition: opacity 800ms;
+}
+
+#slider img.selected {
+    opacity: 1;
+}
+
+footer {
+    margin-top: 18%;
+    text-align: center;
+}

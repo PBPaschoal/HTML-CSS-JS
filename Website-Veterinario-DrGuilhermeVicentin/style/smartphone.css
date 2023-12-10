@@ -1,0 +1,25 @@
+/* OUTRAS */
+@media only screen and (max-device-width: 700px) {
+    .assinatura img {
+        padding-top: 25px;
+        padding-bottom: 20px;
+        width: 350px;
+    }
+
+    .primeira-s {
+        background-size: contain;
+    }
+
+    .container img {
+        width: 360px;
+    }
+
+    .terceira-s {
+        background-position: 900px;
+    }
+
+    .container-2 {
+        flex-direction: column;
+    }
+    
+}

@@ -1,0 +1,61 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('/fonts/Poppins-Italic.ttf') format('truetype');
+}
+
+body {
+    background-color: rgb(20, 20, 20);
+    color: white;
+}
+
+.navbar-brand {
+    font-family: 'Poppins', 'sans-serif';
+    color: rgba(248, 248, 169, 0.123);
+}
+
+.nav-item a {
+    color: rgb(241, 241, 155);
+}
+
+.treinador {
+    display: flex;
+    flex-direction: row;
+    text-align: end;
+    align-items: center;
+    justify-content: center;
+}
+
+.treinador img {
+    height: 100vh;
+}
+
+.importante {
+    padding: 50px;
+    color: rgb(241, 241, 155);
+    font-size: 20px;
+}
+
+h1 {
+    font-size: 82px;
+    font-family: 'Poppins', 'sans-serif';
+}
+
+p {
+    font-family: 'sans-serif';
+}
+
+footer {
+    background-color: rgb(33, 37, 41);
+    text-align: center;
+    padding: 2px;
+}
+
+footer a {
+    text-decoration: none;
+    color: rgb(241, 241, 155);
+}

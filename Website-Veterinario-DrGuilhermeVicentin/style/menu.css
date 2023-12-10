@@ -1,0 +1,26 @@
+/* Meu menu */
+.menu-geral {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: 18px;
+    padding-top: 1%;
+    flex-wrap: wrap;
+}
+
+.menu-geral a {
+    color: rgb(3, 105, 93);
+    transition: 0.8s;
+}
+
+.menu-geral a:hover {
+    color: rgb(69, 221, 201);
+    font-size: 19px;
+    text-shadow: rgba(3, 5, 109, 0.226) 0.2em 0.2em 0.2em;
+}
+
+.imagem-assinatura {
+    width: 65%;
+}

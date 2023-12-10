@@ -1,0 +1,112 @@
+/* Primeira Section */
+.primeira-s {
+    background-image: url(/img/dogs/dog-3.jpg);
+    position: relative;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 15%;
+}
+
+.frase-apresentacao {
+    text-align: end;
+}
+
+h1,
+h4,
+p {
+    color: rgb(255, 255, 255);
+}
+
+/* Segunda Section */
+/* Parte 01 */
+
+.ultra {
+    text-align: center;
+}
+
+.ultrassonografia-texto {
+    background-color: rgba(255, 235, 205, 0.274);
+}
+
+h3 {
+    color: rgb(69, 221, 201);
+    padding-top: 2%;
+}
+
+.ultrassonografia-texto p {
+    padding: 2%;
+    color: rgb(44, 43, 43);
+}
+
+/* Parte 02 */
+
+.fotos {
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    gap: 1%;
+}
+
+/* Terceira Section */
+
+.terceira-s {
+    background-image: url(/img/dogs/dog-2.jpg);
+    position: relative;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 10%;
+}
+
+.minha-foto img {
+    width: 300px;
+    border: 2px inset rgb(69, 221, 201);
+    border-radius: 10px;
+}
+
+.container-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: nowrap;
+    gap: 2%;
+}
+
+/* Quarta */
+
+.quarta-s {
+    background-image: url(/img/cats/cat-1.jpg);
+    position: relative;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 10%;
+    margin-top: 10%;
+}
+
+.atendimento {
+    background-color: rgba(255, 255, 255, 0.418);
+    padding: 5%;
+    border-radius: 20px;
+}
+
+.foto-cat4 img {
+    width: 250px;
+    border-radius: 10px;
+}
+
+.texto-atendimento p, .sobre-mim h4, .sobre-mim p {
+    transition: 0.8s;
+}
+
+.texto-atendimento p:hover,.sobre-mim h4:hover, .sobre-mim p:hover {
+    text-shadow: rgba(6, 206, 173, 0.671) 0.2em 0.2em 0.2em;
+}

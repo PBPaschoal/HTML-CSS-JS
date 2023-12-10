@@ -1,0 +1,22 @@
+/* Inicio */
+
+.div-bem-vindo {
+    background-color: rgb(69, 221, 201);
+    padding: 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: start;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+}
+
+.div-bem-vindo a {
+    color: rgb(255, 255, 255);
+    transition: 0.5s;
+}
+
+.div-bem-vindo a:hover {
+    color: rgb(96, 179, 247);
+}
