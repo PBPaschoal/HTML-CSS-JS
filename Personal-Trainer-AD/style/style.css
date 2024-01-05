@@ -5,7 +5,7 @@
 
 @font-face {
     font-family: 'Poppins';
-    src: url('/fonts/Poppins-Italic.ttf') format('truetype');
+    src: url('../fonts/Poppins-Black.ttf') format('truetype');
 }
 
 body {
