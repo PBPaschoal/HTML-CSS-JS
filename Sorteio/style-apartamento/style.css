@@ -1,0 +1,149 @@
+body {
+    text-align: center;
+    padding: 35px;
+    margin: 0;
+    background-color: rgba(255, 228, 196, 0.568);
+    background-image: url(../img/estacionamento.webp);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: rgb(255, 255, 255);
+}
+
+body, header, p, a, footer {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-size: 55px;
+    color: rgb(255, 255, 255);
+    text-shadow: rgb(0, 0, 0) 0.1em 0.1em 0.1em;
+}
+
+h2 {
+    color: rgb(255, 255, 255);
+    text-shadow: rgba(10, 159, 185) 0.2em 0.1em 0.2em;
+}
+
+.button {
+    color: rgb(255, 255, 255);
+    background-color: rgb(10, 159, 185);
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: 2px solid rgb(0, 0, 0);
+}
+
+#resultado {
+    color: rgb(255, 255, 255);
+    text-shadow: rgb(19, 10, 185) 0.1em 0.1em 0.1em;
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 38px;
+    padding-top: 20px;
+    transition: 2s;
+}
+
+.button:hover {
+    background-color: rgb(19, 10, 185);
+}
+
+.participantes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    font-size: 25px;
+}
+
+.participantes p {
+    font-size: 35px;
+}
+
+h3 {
+    color: rgb(255, 255, 255);
+    text-shadow: 0.2em 0.1em 0.2em rgb(19, 10, 185);
+}
+
+span.cor-um:hover {
+    color: rgb(255, 0, 212);
+}
+
+span.cor-dois:hover {
+    color: rgb(102, 255, 0);
+}
+
+span.cor-um:hover,
+span.cor-dois:hover {
+    font-size: 38px;
+    font-family: 'Times New Roman';
+    transition: 0.8s;
+    background-color: rgba(253, 253, 253, 0.034);
+    padding: 1px;
+    border-radius: 2px;
+}
+
+section {
+    background-color: rgba(0, 0, 0, 0.397);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.menuzinho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    justify-content: space-evenly;
+    align-content: center;
+    padding-bottom: 20px;
+}
+
+.menuzinho ul {
+    list-style: none;
+}
+
+.menuzinho a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+    background-color: rgb(10, 159, 185);
+    padding: 10px;
+    margin-top: 80px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: 2px solid rgb(0, 0, 0);
+    width: 200px;
+}
+
+.menuzinho a:hover {
+    background-color: rgb(19, 10, 185);
+}
+
+footer {
+    padding: 20px 0;
+    font-size: 14px;
+}
+
+footer a {
+    color: rgb(10, 159, 185);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Telas */
+
+@media only screen and (max-device-width: 700px) {
+    
+    #resultado {
+        font-size: 22px;
+    }
+
+}
