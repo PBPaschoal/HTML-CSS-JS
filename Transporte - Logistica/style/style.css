@@ -1,0 +1,159 @@
+/* Menu */
+
+#topo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+/* #topo nav ul {
+    display: none;
+} */
+
+#topo nav ul li {
+    text-align: center;
+}
+
+#menu-toggle {
+    display: none;
+    cursor: pointer;
+}
+
+#topo nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+
+#topo nav a {
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+    margin: 0 10px;
+    transition: 0.8s;
+    padding: 8px;
+}
+
+#topo nav a:hover {
+    color: #09ff00;
+    border-radius: 18px;
+    background-color: #0325e067;
+}
+
+/* Serviços */
+/* Segunda section */
+.segunda div h1,
+.terceira div h2 {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #0325e067;
+    transition: 4s;
+}
+
+.segunda div h1:hover,
+.terceira div h2:hover {
+    color: #09ff00;
+}
+
+.nossos-servicos {
+    padding: 2px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    /* Ajuste o espaçamento entre os cartões conforme necessário */
+}
+
+/*.uk-child-width-1-3@s.uk-grid-match >div {
+    flex: 1 0 calc(33.33% - 20px);
+    /* Garante que cada cartão tenha aproximadamente um terço da largura do contêiner, considerando o espaçamento entre os cartões *
+    max-width: calc(33.33% - 20px);
+    /* Define a largura máxima dos cartões *
+    margin: 10px;
+    /* Adiciona margem entre os cartões *
+} */
+
+.nossos-servicos p {
+    font-size: 16px;
+}
+
+.primeiro-logo {
+    padding: 55px;
+    text-align: center;
+}
+
+/* Terceira section */
+
+.fundo-quem-somos {
+    background-image: url(../img/quem-somos2.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    overflow: hidden;
+    /* Para conter o conteúdo e evitar que ele vaze para fora da seção */
+}
+
+.terceira div div h3 {
+    font-size: 50px;
+}
+
+.quem-somos {
+    width: 500px;
+    padding: 40px;
+    /*background-color: #f9fcffa2;*/
+    background-color: #d4e8fc69;
+    text-align: justify;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* Alinha à direita */
+    float: right;
+
+    /* Adiciona uma margem para separar da seção */
+    margin-left: 20px;
+}
+
+/* Outras telas */
+
+@media (max-width: 768px) {
+
+    #menu-toggle {
+        display: block;
+        /* Exibe o ícone do menu */
+        text-align: right;
+        padding: 20px;
+        font-size: 30px;
+    }
+
+    #topo nav ul {
+        display: none;
+        /* Esconde o menu na tela inicial */
+    }
+
+    #topo nav ul.active {
+        display: block;
+        /* Exibe o menu quando o ícone do menu é clicado */
+    }
+
+    #topo nav {
+        flex-direction: column;
+        align-items: start;
+    }
+
+    nav {
+        text-align: center;
+    }
+
+    .primeira {
+        margin-top: 200px;
+    }
+
+    .quem-somos {
+        width: 100%;
+    }
+}
