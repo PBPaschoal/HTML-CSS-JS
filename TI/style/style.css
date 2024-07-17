@@ -1,0 +1,29 @@
+body {
+}
+
+/* Cor branca */
+.navbar-brand, #navbarText a, .navbar-text {
+	color: rgb(255, 255, 255);
+}
+
+/* Cor azul */
+h1 {
+	color: rgb(0, 123, 255);
+}
+
+a.navbar-brand {
+	font-size: 40px;
+}
+
+#primeira-section {
+	padding: 25px;
+	text-align: center;
+}
+
+h2 {
+	font-size: 20px;
+}
+
+.botao-contato {
+	padding-top: 20px;
+}
