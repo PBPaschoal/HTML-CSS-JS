@@ -1,4 +1,6 @@
 body {
+	padding: 0;
+	margin: 0;
 }
 
 /* Cor branca */
@@ -16,7 +18,7 @@ a.navbar-brand {
 }
 
 #primeira-section {
-	padding: 25px;
+	padding: 150px;
 	text-align: center;
 }
 
@@ -25,5 +27,11 @@ h2 {
 }
 
 .botao-contato {
-	padding-top: 20px;
+	padding-top: 50px;
+}
+.imagem-dev-web {
+	padding: 50%;
+	background-image: url(../img/desenvolvimento-web.webp);
+	background-size: auto;
+	background-repeat: no-repeat;
 }
