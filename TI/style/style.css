@@ -29,6 +29,13 @@ h2 {
 .botao-contato {
 	padding-top: 50px;
 }
+
+.container-web {
+	display: flex;
+	flex-direction: row;
+	
+}
+
 .imagem-dev-web {
 	padding: 50%;
 	background-image: url(../img/desenvolvimento-web.webp);
